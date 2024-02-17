@@ -49,4 +49,14 @@ Workin with tag [
         git show <version_number> (To see the tag)
     ]
     Lightweight Tagging []
+
+    git push origin <tag_version_name>
+]
+
+Clone a project [
+    git clone <https_url>
+]
+
+Creating branch [
+    git branch -M <branch_name>
 ]
