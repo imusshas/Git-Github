@@ -32,3 +32,5 @@ ssh-keygen -o (For one machine it is needed to be done for once)
 ]
 
 git remote add origin <SSH_link> (To connect a remote github repository with the machine's local repository)
+
+git push -u origin main 
