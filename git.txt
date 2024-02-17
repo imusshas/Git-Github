@@ -1,0 +1,13 @@
+git config
+git config --global --list 
+    [You will get an error if you haven't config git]
+
+To config git [
+    git config --global user.name "<your_name>"
+    git config --global user.email "<your_email>"
+]
+
+Go to the working directory
+
+git status
+git init (Only if status gives fatal error)
