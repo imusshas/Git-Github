@@ -35,3 +35,4 @@ git remote add origin <SSH_link> (To connect a remote github repository with the
 
 git push -u origin <branch_name> (To push local repository to remote repository)
 git push -f origin <branch_name> (To push forfully. This will override all the works in the remote repository.)
+git push origin <branch_name>
