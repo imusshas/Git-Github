@@ -21,3 +21,14 @@ N.B: Every time any file is modified/created it must be added into the staging a
 git commit -a -m <message> (To skip  stage changes)
 git diff (To see what changes have been made in a file/folder)
 git diff --staged (To see the changes in the staged area which are not been commited)
+git branch -M <branch_name> (To create a new branch)
+ssh-keygen -o (For one machine it is needed to be done for once)
+
+[
+    cd
+    cd .ssh
+    ls -a
+    cat id_rsa.pub
+]
+
+git remote add origin <SSH_link> (To connect a remote github repository with the machine's local repository)

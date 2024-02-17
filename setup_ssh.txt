@@ -1,0 +1,4 @@
+Go to github.com
+Settings
+SSH & GPG keys
+ADD NEW SSH
