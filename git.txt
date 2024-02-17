@@ -50,3 +50,13 @@ Workin with tag [
     ]
     Lightweight Tagging []
 ]
+
+Woring with branch [
+    git branch <branch_name> (To create a branch)
+    git switch <branch_name> (To switch between branches)
+    git switch -c <branch_name> (To create a branch & switch to it)
+    git branch (To see the branches)
+    git branch --all (To see all the branch with remote & local)
+    git branch -d <branch_name> (To delete a branch)
+    git branch -D <branch_name> (To delete a unmerged branch)
+]
