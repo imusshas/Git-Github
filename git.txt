@@ -11,6 +11,7 @@ Go to the working directory
 
 git status
 git init (Only if status gives fatal error)
+git pull origin <branch_name>
 git add . (To add all unstage changes)
 git add <file_name/folder_name> (To add a particular unstage change)
 git rm --cached <file_name/folder_name> (To unstage)
