@@ -16,3 +16,8 @@ git add <file_name/folder_name> (To add a particular unstage change)
 git rm --chaced <file_name/folder_name> (To unstage)
 git log (To see the commits)
 git commit -m <message>
+
+N.B: Every time any file is modified/created it must be added into the staging area.
+git commit -a -m <message> (To skip  stage changes)
+git diff (To see what changes have been made in a file/folder)
+git diff --staged (To see the changes in the staged area which are not been commited)
