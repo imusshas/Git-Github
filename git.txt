@@ -60,3 +60,8 @@ Woring with branch [
     git branch -d <branch_name> (To delete a branch)
     git branch -D <branch_name> (To delete a unmerged branch)
 ]
+
+Working with merge [
+    To merge you must first switch to the main branch ->
+        git merge <branch_name>
+] 
