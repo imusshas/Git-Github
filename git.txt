@@ -21,6 +21,12 @@ git checkout branch_name/commit_head (to switch branch/commits)
 git checkout -b <branch_name> (to create new branch)
 git reflog (to see the HEADs up to now/you can find your non pushed commits from here)
 git checkout -b recover <commit> (to recover non pushed commit on a new branch)
+git reset --soft <commit_hash> (delete commits but keep changes in the tracked area)
+git reset <commit_hash> (delete commits and keep the changes untracked)
+git reset --hard <commit_hash> (delete commits and the changes made on those commits too forever)
+
+
+
 
 N.B: Every time any file is modified/created it must be added into the staging area.
 git commit -a -m <message> (To skip  stage changes)git
