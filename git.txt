@@ -9,7 +9,7 @@ To config git [
 
 Go to the working directory
 
-git status
+git status  (To see if git is initialized or not)
 git init (Only if status gives fatal error)
 git pull origin <branch_name>
 git add . (To add all untracked changes)
@@ -18,9 +18,12 @@ git rm --cached <file_name/folder_name> (To unstage)
 git log (To see the commits history) [press q to exit from the log]
 git commit -m <message>
 git checkout branch_name/commit_head (to switch branch/commits)
+git checkout -b <branch_name> (to create new branch)
+git reflog (to see the HEADs up to now/you can find your non pushed commits from here)
+git checkout -b recover <commit> (to recover non pushed commit on a new branch)
 
 N.B: Every time any file is modified/created it must be added into the staging area.
-git commit -a -m <message> (To skip  stage changes)
+git commit -a -m <message> (To skip  stage changes)git
 git diff (To see what changes have been made in a file/folder)
 git diff --staged (To see the changes in the staged area which are not been commited)
 git branch -M <branch_name> (To create a new branch)
