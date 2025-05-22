@@ -42,6 +42,7 @@ git push -u origin <branch_name> (To push local repository to remote repository)
 git push -f origin <branch_name> (To push forcefully. This will override all the works in the remote repository.)
 git push origin <branch_name>
 git remote -v (To fetch & push)
+git push origin -d <branch_name> (to delete a remote branch)
 
 Working with tag [
     What is a tag?
