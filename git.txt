@@ -24,6 +24,8 @@ git checkout -b recover <commit> (to recover non pushed commit on a new branch)
 git reset --soft <commit_hash> (delete commits but keep changes in the tracked area)
 git reset <commit_hash> (delete commits and keep the changes untracked)
 git reset --hard <commit_hash> (delete commits and the changes made on those commits too forever)
+git revert <commit_hash> (to revert back to a previous commit because the intermediate commits break the repo)
+git revert --continue (to continue back to the current commit)
 
 
 
