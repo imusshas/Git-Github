@@ -39,11 +39,11 @@ ssh-keygen -o (For one machine it is needed to be done for once)
 git remote add origin <SSH_link> (To connect a remote github repository with the machine's local repository)
 
 git push -u origin <branch_name> (To push local repository to remote repository)
-git push -f origin <branch_name> (To push forfully. This will override all the works in the remote repository.)
+git push -f origin <branch_name> (To push forcefully. This will override all the works in the remote repository.)
 git push origin <branch_name>
 git remote -v (To fetch & push)
 
-Workin with tag [
+Working with tag [
     What is a tag?
     Ans: When we have an application that is useable we release a version of it. It's called a tag
 
@@ -56,9 +56,10 @@ Workin with tag [
     Lightweight Tagging []
 ]
 
-Woring with branch [
+Working with branch [
     git branch <branch_name> (To create a branch)
     git branch <branch_name> <source_branch_name>
+    git branch --set-upstream origin <branch_name> (to publish a local branch on the remote repository)
     git switch <branch_name> (To switch between branches)
     git switch -c <branch_name> (To create a branch & switch to it)
     git branch (To see the branches)
