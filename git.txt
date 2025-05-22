@@ -12,11 +12,12 @@ Go to the working directory
 git status
 git init (Only if status gives fatal error)
 git pull origin <branch_name>
-git add . (To add all unstage changes)
-git add <file_name/folder_name> (To add a particular unstage change)
+git add . (To add all untracked changes)
+git add <file_name/folder_name> (To add a particular untracked change)
 git rm --cached <file_name/folder_name> (To unstage)
-git log (To see the commits)
+git log (To see the commits history) [press q to exit from the log]
 git commit -m <message>
+git checkout branch_name/commit_head (to switch branch/commits)
 
 N.B: Every time any file is modified/created it must be added into the staging area.
 git commit -a -m <message> (To skip  stage changes)

@@ -1,2 +1,0 @@
-1. Local Version Control (Not Collaboratable)
-2. Centralaized Version Control System (CVCS)
